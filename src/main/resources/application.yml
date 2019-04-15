@@ -5,5 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: file:/office-project/config-repo
+          uri: ${CONFIG_GIT_REPO}
           searchPaths: '{application}/{profile}'
